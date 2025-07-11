@@ -2425,6 +2425,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a3ee6bc96a889af4c81ed01a2a406420, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -2874609183481074869, guid: de28c4a956ee55242b6e6c40d136f828, type: 3}
     - target: {fileID: 919132149155446097, guid: a3ee6bc96a889af4c81ed01a2a406420, type: 3}
       propertyPath: m_Name
       value: CanFBX (1)
@@ -4881,6 +4885,22 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ff1522ded47d3184ab3221fb37dd4d95, type: 2}
+    - target: {fileID: 6452146545112581068, guid: 0cfe72bc9f7b22c4e92d735bf2d5c91e, type: 3}
+      propertyPath: m_Height
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7246596739415826368, guid: 0cfe72bc9f7b22c4e92d735bf2d5c91e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7246596739415826368, guid: 0cfe72bc9f7b22c4e92d735bf2d5c91e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7246596739415826368, guid: 0cfe72bc9f7b22c4e92d735bf2d5c91e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 7246596739415826368, guid: 0cfe72bc9f7b22c4e92d735bf2d5c91e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.22158623
@@ -8285,10 +8305,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1213c646b2963fa44bac69b05c94afae, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1100971627}
+      addedObject: {fileID: 1100971628}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1213c646b2963fa44bac69b05c94afae, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1100971628}
+      addedObject: {fileID: 1100971629}
   m_SourcePrefab: {fileID: 100100000, guid: 1213c646b2963fa44bac69b05c94afae, type: 3}
 --- !u!4 &639712670 stripped
 Transform:
@@ -11544,6 +11564,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a3ee6bc96a889af4c81ed01a2a406420, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -2874609183481074869, guid: de28c4a956ee55242b6e6c40d136f828, type: 3}
     - target: {fileID: 919132149155446097, guid: a3ee6bc96a889af4c81ed01a2a406420, type: 3}
       propertyPath: m_Name
       value: CanFBX (2)
@@ -12159,28 +12183,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1213c646b2963fa44bac69b05c94afae, type: 3}
   m_PrefabInstance: {fileID: 639712669}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1100971627
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100971626}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1238218227891777710, guid: 1213c646b2963fa44bac69b05c94afae, type: 3}
 --- !u!54 &1100971628
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12208,6 +12210,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &1100971629
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100971626}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.71
+  m_Center: {x: -0.36, y: 0.52, z: 0.8}
 --- !u!1 &1110611744
 GameObject:
   m_ObjectHideFlags: 0
@@ -12959,6 +12982,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1128476914}
+  - component: {fileID: 1128476916}
+  - component: {fileID: 1128476915}
   m_Layer: 0
   m_Name: Beds
   m_TagString: Untagged
@@ -12983,6 +13008,54 @@ Transform:
   - {fileID: 1502612506}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1128476915
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128476913}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.53, y: 3.8, z: 5.88}
+  m_Center: {x: -2.93, y: 0, z: 0.36}
+--- !u!54 &1128476916
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128476913}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 2
 --- !u!43 &1167711458
 Mesh:
   m_ObjectHideFlags: 0
@@ -14621,6 +14694,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a3ee6bc96a889af4c81ed01a2a406420, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -2874609183481074869, guid: de28c4a956ee55242b6e6c40d136f828, type: 3}
     - target: {fileID: 919132149155446097, guid: a3ee6bc96a889af4c81ed01a2a406420, type: 3}
       propertyPath: m_Name
       value: CanFBX (3)
@@ -17485,6 +17562,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a3ee6bc96a889af4c81ed01a2a406420, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -2874609183481074869, guid: de28c4a956ee55242b6e6c40d136f828, type: 3}
     - target: {fileID: 919132149155446097, guid: a3ee6bc96a889af4c81ed01a2a406420, type: 3}
       propertyPath: m_Name
       value: CanFBX (4)
@@ -20188,6 +20269,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a3ee6bc96a889af4c81ed01a2a406420, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -2874609183481074869, guid: de28c4a956ee55242b6e6c40d136f828, type: 3}
     - target: {fileID: 919132149155446097, guid: a3ee6bc96a889af4c81ed01a2a406420, type: 3}
       propertyPath: m_Name
       value: CanFBX
@@ -20971,6 +21056,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a3ee6bc96a889af4c81ed01a2a406420, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -2874609183481074869, guid: de28c4a956ee55242b6e6c40d136f828, type: 3}
     - target: {fileID: 919132149155446097, guid: a3ee6bc96a889af4c81ed01a2a406420, type: 3}
       propertyPath: m_Name
       value: CanFBX (5)
