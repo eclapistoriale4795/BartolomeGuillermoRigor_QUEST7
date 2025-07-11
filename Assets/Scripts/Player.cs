@@ -69,7 +69,7 @@ public class Player : MonoBehaviour
         Stats();
         if (player.gameOK)
         {
-            if (Input.GetKeyDown(KeyCode.Mouse0))
+            if (Input.GetKey(KeyCode.Mouse0))
             {
                 isAttacking = true;
             }

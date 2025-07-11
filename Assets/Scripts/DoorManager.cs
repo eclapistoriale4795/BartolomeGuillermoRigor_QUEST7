@@ -6,8 +6,8 @@ public class DoorManager : MonoBehaviour
 {
     public Animator animator;
     bool open;
-    float toggleCooldown = 1f;
-    float cooldownTimer;
+    public float toggleCooldown;
+    public float cooldownTimer;
     // Start is called before the first frame update
     void Start()
     {
