@@ -3895,7 +3895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1479568001}
-  toggleCooldown: 0.1
+  toggleCooldown: 0.001
   cooldownTimer: 0
 --- !u!135 &1479568003
 SphereCollider:
