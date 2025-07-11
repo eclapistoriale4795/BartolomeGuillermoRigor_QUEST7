@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class DoorManager : MonoBehaviour
 {
-    public Animator animator;
     public bool open;
     public float toggleCooldown;
     public float cooldownTimer;
@@ -22,9 +21,9 @@ public class DoorManager : MonoBehaviour
         }
         if (open)
         {
-            animator.Play("DoorOpenIdle");
+            transform.localRotation = Quaternion.Euler(0, 0, 0);
         }
-        else { animator.Play("DoorCloseIdle"); }
+        else { transform.localRotation = Quaternion.Euler(0, -90, 0); }
     }
 
     private void OnTriggerStay(Collider other)
@@ -36,8 +35,8 @@ public class DoorManager : MonoBehaviour
                 if (cooldownTimer == 0f)
                 {
                     cooldownTimer = toggleCooldown;
-                    if (open) { open = false; animator.Play("DoorClosed"); Debug.Log("Closed"); }
-                    else { open = true; animator.Play("DoorOpened"); Debug.Log("Open"); }
+                    if (open) { open = false; Debug.Log("Closed"); }
+                    else { open = true; Debug.Log("Open"); }
                 }
             }
         }
