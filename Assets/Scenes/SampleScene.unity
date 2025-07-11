@@ -2185,7 +2185,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8614503516985995183, guid: 1213c646b2963fa44bac69b05c94afae, type: 3}
+  - {fileID: 2100000, guid: 095ef6c8afb832f448e51d0e8c880b1c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5055,7 +5055,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 095ef6c8afb832f448e51d0e8c880b1c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5591,7 +5591,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8614503516985995183, guid: 1213c646b2963fa44bac69b05c94afae, type: 3}
+  - {fileID: 2100000, guid: 095ef6c8afb832f448e51d0e8c880b1c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7994,6 +7994,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5836552744715497169, guid: 1213c646b2963fa44bac69b05c94afae, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 095ef6c8afb832f448e51d0e8c880b1c, type: 2}
     - target: {fileID: 919132149155446097, guid: 1213c646b2963fa44bac69b05c94afae, type: 3}
       propertyPath: m_Name
       value: Chairs
@@ -19983,7 +19987,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: e4392d3226c99c74b9c7ec4859ee7f26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20581,7 +20585,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 1.0755865e-17, y: 0.24783546, z: 2.7515266e-18, w: 0.96880215}
   m_LocalPosition: {x: 47.465813, y: 0.100000024, z: 17.983059}
-  m_LocalScale: {x: 1.5568, y: 1.5568, z: 1.5568}
+  m_LocalScale: {x: 1.7632316, y: 5.1114926, z: 1.7632316}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -21568,6 +21572,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90.804
       objectReference: {fileID: 0}
+    - target: {fileID: -1579061390027289838, guid: de28c4a956ee55242b6e6c40d136f828, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 095ef6c8afb832f448e51d0e8c880b1c, type: 2}
+    - target: {fileID: -1148601475463958874, guid: de28c4a956ee55242b6e6c40d136f828, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 095ef6c8afb832f448e51d0e8c880b1c, type: 2}
     - target: {fileID: 919132149155446097, guid: de28c4a956ee55242b6e6c40d136f828, type: 3}
       propertyPath: m_Name
       value: Censi_ConcreteCoffeeTable_free_fbx
