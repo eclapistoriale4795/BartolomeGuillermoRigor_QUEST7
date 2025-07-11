@@ -21,9 +21,9 @@ public class DoorManager : MonoBehaviour
         }
         if (open)
         {
-            transform.localRotation = Quaternion.Euler(0, 0, 0);
+            transform.localRotation = Quaternion.Euler(0, 90, 0);
         }
-        else { transform.localRotation = Quaternion.Euler(0, -90, 0); }
+        else { transform.localRotation = Quaternion.Euler(0, 0, 0); }
     }
 
     private void OnTriggerStay(Collider other)
