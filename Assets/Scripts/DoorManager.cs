@@ -5,14 +5,9 @@ using UnityEngine;
 public class DoorManager : MonoBehaviour
 {
     public Animator animator;
-    bool open;
+    public bool open;
     public float toggleCooldown;
     public float cooldownTimer;
-    // Start is called before the first frame update
-    void Start()
-    {
-        open = false;
-    }
 
     // Update is called once per frame
     void Update()
